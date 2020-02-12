@@ -1,0 +1,16 @@
+//IMPORTAMOS TODOS LOS ARCHIVOS DE SASSS EN UN SOLO DOCUMENTO
+
+//carpeta base
+@import 'base/reset';
+@import 'base/typography';
+
+//carpeta abstracts
+@import 'abstracts/variables';
+
+//carpeta layout
+@import 'layout/body';
+@import 'layout/header';
+
+//carpeta components
+@import 'components/logos';
+@import 'components/inputs';

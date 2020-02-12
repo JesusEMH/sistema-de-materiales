@@ -1,0 +1,27 @@
+.input{
+    color: black;
+    font-size: .9em;
+    background-color: $brown;
+    width: 50em;
+    height: 3em;
+    border-radius: 20px;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.submit{
+    background-color: $gold-strong;
+    color: black;
+    font-size: .9em;
+    width: 50em;
+    height: 3em;
+    border-radius: 20px;
+    cursor: pointer;
+
+    &:hover{
+        transition: background-color .5s ease, color 1s ease;
+        background-color: $gold-strong-hover;
+        color: $enlace;
+
+    }
+}
+

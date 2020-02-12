@@ -1,0 +1,67 @@
+//declaramos la estructura principal de la pagina login
+.body-login{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 9em 1fr 5em;
+    grid-gap: 1em;
+    background-color: $background;
+    min-width: 100vw;
+    min-height: 100vh;
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 6em 1fr;
+        justify-content: center;
+        align-items: center;
+
+        h2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+            color: $text-gray;
+        }
+
+        h3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.6em;
+            color: $enlace;
+            &:hover{
+                transition: .4s ease;
+                color: green;
+                cursor: pointer;
+            }
+        }
+
+
+
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            .input{
+                margin-bottom: 2em;
+            }  
+
+
+            p{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 1.5em;
+                color: $text-gray;
+                height: 2.2em;
+
+
+                span{
+                    color: $enlace;
+                }
+             }
+        }
+    }
+}

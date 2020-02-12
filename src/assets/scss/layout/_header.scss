@@ -1,0 +1,17 @@
+.header-login{
+    display: grid;
+    grid-template-columns: 9em 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 1em;
+    justify-content: center;
+    align-items: center;
+    background-color: $gold;
+    min-width: 100vw;
+    min-height: 7em;
+
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
